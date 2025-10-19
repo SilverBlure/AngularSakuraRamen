@@ -1,0 +1,45 @@
+.logo{
+    width: 64px;
+    height: 64px;
+}
+
+
+@mixin a{
+    text-decoration: none;
+        color: whitesmoke;
+        font-family: raleway;
+        font-size: 24px;
+}
+
+nav{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    > div{
+        display: flex;
+        justify-content: space-around;
+        width: 50vw;
+        > a{
+        @include a;
+    }
+    }
+   
+}
+
+.button{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: red;
+    color: whitesmoke;
+    width: 200px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    > a{
+        @include a;
+    }
+}
