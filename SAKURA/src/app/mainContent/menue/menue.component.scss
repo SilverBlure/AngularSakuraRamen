@@ -1,0 +1,51 @@
+
+
+img {
+  width: 352px;
+  height: 352px;
+}
+
+td {
+  font-family: raleway;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+th {
+  font-family: economica;
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: start;
+}
+
+div {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 56px;
+}
+
+table{
+    width: 50%;
+}
+
+section {
+  background-image: url(./../../../assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  > h1 {
+    font-family: raleway;
+    font-size: 80px;
+    font-weight: bold;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    color: #9F0908;
+  }
+}
+
+.paBo{
+    padding-bottom: 120px;
+}
